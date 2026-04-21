@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Most Popular Matcha Spots In Toronto</title>
+    <link rel="stylesheet" href="Homepage.css" />
+
+</head>
+<header class="dashboard">
+  <div class="nav-container">
+    <h1 class="logo">MatchaFIND</h1>
+
+   <nav class="nav-links">
+  <a href="index.html">HOME</a>
+  <a href="About.html">ABOUT MATCHA</a>
+  <a href="Top10.html">TOP 8 SPOTS</a>
+</nav>
+
+</header>
+ <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>MOST POPULAR MATCHA SPOTS IN TORONTO</h1>
+        
+
+<body>
+<section class="hero-image-section">
+    <img src="images/image22.jpg" alt="Matcha cafe feature image">
+  </section>
+
+  <section class="home-carousel-section">
+    <h2>Featured Matcha Shops</h2>
+
+    <div class="carousel-wrapper">
+      <button class="carousel-btn prev" onclick="scrollCarousel(-1)">&#10094;</button>
+
+      <div class="carousel" id="matchaCarousel">
+        <a href="spot1.html" class="carousel-card">
+           <img src="https://matchamatcha.ca/cdn/shop/files/DSC05942-Edit-3.jpg?v=1760510990" alt="Matcha Matcha store">
+          <h3>MATCHA MATCHA</h3>
+        </a>
+
+        <a href="spot2.html" class="carousel-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL5R2869K6fHF-YdCJ0GqAwWMFeOg9aB_pdQ&s" alt="Matcha Matcha store">
+          <h3>ICHA TEA</h3>
+        </a>
+
+        <a href="spot3.html" class="carousel-card">
+          <img src="https://blogto-production2-baselayer-display.blogto.com/uploads/2026/02/18/1771436829-20260128-MatchaHaus-19.jpg?w=1400&cmd=resize&format=auto" alt="Matcha Matcha store">
+          <h3>MATCHA HAUS</h3>
+        </a>
+
+        <a href="spot4.html" class="carousel-card">
+          <img src="https://cdn.corner.inc/ugc/cdc1d364-ca4a-49da-a33d-f44fd964677e-1761144583499-1.jpeg" alt="Wu wei store">
+          <h3>WU WEI COFFEE</h3>
+        </a>
+
+        <a href="spot5.html" class="carousel-card">
+          <img src="https://www.forgetmenotcoffee.ca/cdn/shop/files/FMN-About.jpg?v=1697295121&width=1500" alt="Wu wei store">
+          <h3>FORGET ME NOT COFFEE</h3>
+        </a>
+
+        <a href="spot6.html" class="carousel-card">
+          <img src="https://cdn.corner.inc/place-photo/AcnlKN1w6hwxvOZ66rCqBZlmpXfrW4gpKlBgKEKd-FWY4n0RF_uz14GgKUmBvDDI-ZDSs_dKDIpQxXldKzPLz7AU1c-ZuDkGPzlclhayLIbc6JGTviRNRdGuxEKYpMuK5Y-bVp8NPW5FJTTtvWbU3oIj3FoxOlHc7kk8znac9hBkr6JV4oV6x9UXJ7oyeKfFLuLpNAWYnUZSwmiHDvuVb2xCV-ZjGyqvfKQN8n4VQ0V5jJJ7dhIr9voomHb2JZdkrQXxTKZYvWodJPYhPWiI03ZNWlQqhhhOvWcZqGRJPgzAL-Nr3w.jpeg" alt="18feet">
+          <h3>18FEET</h3>
+        </a>
+      </div>
+
+      <button class="carousel-btn next" onclick="scrollCarousel(1)">&#10095;</button>
+    </div>
+  </section>
+
+  <script>
+    function scrollCarousel(direction) {
+      const carousel = document.getElementById("matchaCarousel");
+      const scrollAmount = 320;
+      carousel.scrollBy({
+        left: direction * scrollAmount,
+        behavior: "smooth"
+      });
+    }
+  </script>
+
+</body>
+</html>
